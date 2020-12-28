@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="548dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/edit_text_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:weightSum="1">
+
+
+                <EditText
+                    android:id="@+id/companyname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Company Name"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/companyphone1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone1"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+
+                <EditText
+                    android:id="@+id/companyphone2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Phone2"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+
+
+
+
+
+
+                <EditText
+                    android:id="@+id/compantaddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Address"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/companyxcoor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Latitude"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/companyycoor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Longitude"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+
+                <EditText
+                    android:id="@+id/companyemail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+
+
+                <EditText
+                    android:id="@+id/username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:inputType="text"
+                    android:singleLine="true" />
+
+
+                <EditText
+                    android:id="@+id/password_register"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="password"
+                    android:inputType="textPassword"
+                    android:singleLine="true" />
+
+
+
+            </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="#2c3e50"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
